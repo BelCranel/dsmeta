@@ -1,11 +1,20 @@
-import NoticationButton from "./componentes/notificationButton/aindex"
+import Header from "./componentes/Header/intex"
+import SalesCard from "./componentes/SalesCard/intex"
+
 
 function App() {
-  return(
+  return (
     <>
-     <h1>Olá mundo!</h1>
-     <NoticationButton />
-     </>
+      <Header />
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+             <SalesCard/>
+          </div>
+        </section>
+      </main>
+
+    </>
   )
 }
 
