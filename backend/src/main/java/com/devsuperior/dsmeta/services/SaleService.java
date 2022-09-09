@@ -1,4 +1,4 @@
-package com.devsuperior.dsmeta.config.services;
+package com.devsuperior.dsmeta.services;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -27,4 +27,4 @@ public class SaleService {
 		
 		return repository.findSales(min, max, pageable);
 	}
-}
+}	
